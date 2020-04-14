@@ -1,5 +1,5 @@
 #!/bin/dash
-# Desenvolvido por Tchelo Noob
+# Developed by ITALIA CYBER ARMY
 
 echo "\033[1;92m Updating and Upgrading First..."
 echo ""
@@ -13,7 +13,6 @@ echo "\033[1;90m
          ▂▄▅█████████▅▄▃▂
         |███████████████████].
          ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
-sleep 1
 
     \033[0;32m ░▒▓\033[1;92m██████████►\033[1;95m╬\033[1;92m◄██████████\033[0;32m▓▒░
     \033[0;32m ░▒▓\033[1;92m██►\033[1;91m╔╦╦╦═╦╗╔═╦═╦══╦═╗\033[1;92m◄██\033[0;32m▓▒░
@@ -21,12 +20,12 @@ sleep 1
     \033[0;32m ░▒▓\033[1;92m██►\033[1;91m╚══╩═╩═╩═╩═╩╩╩╩═╝\033[1;92m◄██\033[0;32m▓▒░
     \033[0;32m ░▒▓\033[1;92m██████████►\033[1;95m╬\033[1;92m◄██████████\033[0;32m▓▒░";
 echo
-echo -e "\033[1;96mDo You Want to Install Ngrok? [Y/n]"
+echo "\033[1;96mDo You Want to Install Ngrok? [Y/n]"
 read opcao
 case $opcao in
 y)
 echo ""
-echo -e "\033[1;93mDownloading Termux-ngrok..."
+echo "\033[1;93mDownloading Termux-ngrok..."
 sleep 1
 case `dpkg --print-architecture` in
 aarch64)
@@ -42,7 +41,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo -e "\033[1;91mUnknown Architecture"
+    echo "\033[1;91mUnknown Architecture"
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -77,17 +76,17 @@ echo "
 ╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗";
 echo ""
 echo ""
-echo -e "\033[1;92mSuccesfully Done !!"
+echo "\033[1;92mSuccesfully Done !!"
 echo ""
 sleep 1
-echo -e "\033[1;97mCommand Example (\033[1;95mngrok http 80\033[1;97m) \n\n or ngrok For Help" 
+echo "\033[1;97mCommand Example (\033[1;95mngrok http 80\033[1;97m) \n\nOr ngrok For Help" 
 echo ""
 
 ;;
 
 n)
 clear
-echo -e "\033[1;91mCan't be Able to Install Ngrok Properly:("
+echo "\033[1;91mCan't be Able to Install Ngrok Properly:("
 echo ""
 esac
 
