@@ -6,7 +6,7 @@
 apt update && apt upgrade
 apt install git
 git clone https://github.com/Err0r-ICA/Ngrok.git
-cd termux-ngrok
+cd Ngrok
 chmod +x termux-ngrok.sh
 sh termux-ngrok.sh
 ```
