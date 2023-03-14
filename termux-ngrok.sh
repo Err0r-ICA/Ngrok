@@ -1,5 +1,5 @@
 #!/bin/dash
-# Developed by ITALIA CYBER ARMY
+# Developed by Err0r_HB ~ HackBoyz Team 
 
 echo "\033[1;92m Updating and Upgrading First..."
 echo ""
